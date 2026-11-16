@@ -24,7 +24,7 @@ body {
   line-height: 1.6;
 }
 img { max-width: 100%; display: block; }
-a { color: var(--navy); }
+a { color: var(--sky); }
 h1, h2, h3 { line-height: 1.2; margin: 0 0 .5em; color: var(--navy-dark); }
 p { margin: 0 0 1em; }
 ul, ol { padding: 0; margin: 0; list-style: none; }
@@ -157,7 +157,7 @@ ul, ol { padding: 0; margin: 0; list-style: none; }
 .section-dark .eyebrow { color: #e4b89e; }
 .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.6rem; }
 .steps li { position: relative; padding-top: 3.4rem; }
-.steps p { color: #b9c9e3; margin: 0; }
+.steps p { color: var(--muted); margin: 0; }
 .step-num {
   position: absolute; top: 0; left: 0; width: 44px; height: 44px; border-radius: 50%;
   background: var(--plaster); color: #fff; font-weight: 800; display: grid; place-items: center; font-size: 1.1rem;

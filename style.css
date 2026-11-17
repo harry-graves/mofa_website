@@ -24,7 +24,7 @@ body {
   line-height: 1.6;
 }
 img { max-width: 100%; display: block; }
-a { color: var(--sky); }
+a { color: var(--navy); }
 h1, h2, h3 { line-height: 1.2; margin: 0 0 .5em; color: var(--navy-dark); }
 p { margin: 0 0 1em; }
 ul, ol { padding: 0; margin: 0; list-style: none; }
@@ -244,3 +244,12 @@ ul, ol { padding: 0; margin: 0; list-style: none; }
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Contact on dark background */
+.contact-info { text-align: left; }
+.section-dark .contact-info p { color: #b9c9e3; }
+.section-dark .contact-info .eyebrow { color: var(--plaster); }
+.section-dark .contact-list { color: #dfe8f6; }
+.section-dark .contact-list a { color: #fff; }
+.section-dark .contact-list strong { color: #fff; }
+.section-dark .form { color: var(--ink); }
